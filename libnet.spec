@@ -1,7 +1,7 @@
 Summary:	C library for portable packet creation and injection
 Name:		libnet
 Version:	1.1.6
-Release:	5%{?dist}
+Release:	7%{?dist}
 License:	BSD
 Group:		System Environment/Libraries
 URL:		http://www.sourceforge.net/projects/libnet-dev/
@@ -84,6 +84,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/%{name}*.3*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.1.6-7
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.6-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.1.6-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
